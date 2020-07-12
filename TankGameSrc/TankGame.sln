@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TankGame.Tools", "TankGame.Tools\TankGame.Tools.csproj", "{58960D17-1D9E-45F9-8DE4-D3B20AD389E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TankGame.NUnitTestProject", "TankGame.NUnitTestProject\TankGame.NUnitTestProject.csproj", "{99CE1A52-6194-421D-8DB2-430A4E3F0CFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TankGame.Engine", "TankGame.Engine\TankGame.Engine.csproj", "{76AE1947-8517-4C2B-B74C-35DDE83991A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TankGame.API", "TankGame.API\TankGame.API.csproj", "{403C544F-2594-495B-BEF2-04872672C565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58960D17-1D9E-45F9-8DE4-D3B20AD389E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58960D17-1D9E-45F9-8DE4-D3B20AD389E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58960D17-1D9E-45F9-8DE4-D3B20AD389E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58960D17-1D9E-45F9-8DE4-D3B20AD389E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CE1A52-6194-421D-8DB2-430A4E3F0CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CE1A52-6194-421D-8DB2-430A4E3F0CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CE1A52-6194-421D-8DB2-430A4E3F0CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CE1A52-6194-421D-8DB2-430A4E3F0CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AE1947-8517-4C2B-B74C-35DDE83991A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AE1947-8517-4C2B-B74C-35DDE83991A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AE1947-8517-4C2B-B74C-35DDE83991A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AE1947-8517-4C2B-B74C-35DDE83991A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403C544F-2594-495B-BEF2-04872672C565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403C544F-2594-495B-BEF2-04872672C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403C544F-2594-495B-BEF2-04872672C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403C544F-2594-495B-BEF2-04872672C565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22AE5F77-AD06-4A62-9AB9-CDCBBAD4F0F6}
+	EndGlobalSection
+EndGlobal

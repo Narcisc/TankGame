@@ -1,0 +1,39 @@
+﻿version: '3.7'
+
+services:
+#####################
+  web:
+#####################
+    container_name: tankgame
+    image: tankgame
+    build: 
+        context: .
+        dockerfile: Dockerfile
+    ports:
+        - "55908:5000"
+    environment:
+        DB_CONNECTION_STRING: "User ID=postgres;Password=password;Server=postgres;Host=postgres-db;Database=Gamedb;Integrated Security=true;Pooling=true;"
+    depends_on:
+        - "postgres-db"
+    networks:
+        - tankapi-network
+
+  postgres-db:
+    container_name: postgres
+    image: postgres
+    ports:
+      - "5400:5432"
+    restart: always
+    volumes:
+      - db_volume:/var/lib/postgresql/newdata
+      - ./dbscripts/init.sql :/docker-entrypoint-initdb.d/init.sql
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: Gamedb
+    networks:
+      - tankapi-network
+networks:
+  tankapi-network:
+volumes:
+  db_volume:

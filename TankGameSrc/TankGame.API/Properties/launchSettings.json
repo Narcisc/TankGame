@@ -1,0 +1,37 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://127.0.0.1:55908",
+      "sslPort": 0
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchUrl": "help",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+      
+    },
+    "TankGame.API": {
+      "commandName": "Project",
+      "launchUrl": "help",
+      "environmentVariables": {
+        "DB_CONNECTION_STRING": "User ID=postgres;Password=password;Server=postgres;Host=localhost;Database=Gamedb;Integrated Security=true;Pooling=true;",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/gamemaps",
+      "environmentVariables": {
+        "DB_CONNECTION_STRING": "User ID=postgres;Password=password;Server=postgres;Host=localhost;Database=Gamedb;Integrated Security=true;Pooling=true;"
+      },
+      "publishAllPorts": true
+    }
+  }
+}

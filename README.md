@@ -4,7 +4,8 @@ Simulate battle between 2 tanks on a 2d map
 To run project:
 Prerequisities: 
   Docker(Linux containers) and Docker Composer
-Enter in folder TankGame and run:
+  
+Enter in folder TankGameSrc and run:
   docker-compose build
 Then
   docker-compose up  -d
@@ -57,11 +58,11 @@ TankGame.NUnitTestProject - few test units using nUnit
 TankGame.API - webapi over .net core to save data into Postgresql database
 
 Used: 
-  C#, .net core, EntityFramework
-  GenericRepository 
-  AutoMapper
-  FluentValidation
-  Postgreql
+  C#, .net core, EntityFramework,
+  GenericRepository, 
+  AutoMapper,
+  FluentValidation,
+  Postgreql,
   NUnit
  
  
